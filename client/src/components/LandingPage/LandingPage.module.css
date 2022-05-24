@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: right; /*Centar horizontal*/
+    align-items:center;
+    background-image: url('./FondoLanding.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 100px;
+    min-height: 100vh;
+    padding: 10px;
+    text-shadow: inset 0 0 2px;
+    font-size: italic;
+}
+.info{
+    border: 3px solid black;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    filter:alpha(opacity=65);
+    -moz-opacity:.70;opacity:.65;
+}
+.botonIngresar{
+  width: 200px;
+}

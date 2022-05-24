@@ -1,0 +1,35 @@
+.paginado{
+    text-decoration: none;
+}
+.contenedor{
+    display:inline-flex;
+    flex-direction: row; 
+    border-top: 1px solid #161616;
+    border-bottom:1px solid #161616 ;
+}
+.numero{
+    list-style: none;
+    padding: 1px;
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
+}
+.total{
+    display: inline-flex;
+    margin:2px;
+    border: 2px solid #F08080;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 6px;
+    list-style: none;
+    width:16px;
+    font-size: 12px;
+    align-items: center
+}
+.total:hover{
+background-color: #fff;
+border: 2.5px solid #161616;
+color: #220F00;
+transition-delay: 0.2s;
+transition: 0.4s;
+}
